@@ -25,6 +25,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: install linux tools
-      run: apt install -y tree
+      run: sudo apt install -y tree
     - name: show directory structure
       run: tree .
